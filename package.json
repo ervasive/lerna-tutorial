@@ -1,0 +1,20 @@
+{
+  "name": "lerna-tutorial",
+  "private": true,
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "workspaces": [
+    "./packages/*"
+  ],
+  "scripts": {
+    "ts:compile": "tsc --build",
+    "ts:clean": "tsc --build --clean",
+    "ts:watch": "tsc --build --watch"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.2",
+    "lerna": "^3.16.4",
+    "typescript": "^3.5.3"
+  }
+}

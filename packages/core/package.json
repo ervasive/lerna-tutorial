@@ -1,0 +1,28 @@
+{
+  "name": "@ervasive-lerna-tutorial/core",
+  "version": "0.0.0",
+  "description": "A core package",
+  "keywords": [
+    "tutorial"
+  ],
+  "author": "Ruslan Vasiliev <ervasive@gmail.com>",
+  "homepage": "https://github.com/ervasive/lerna-tutorial",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ervasive/lerna-tutorial.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/ervasive/lerna-tutorial/issues"
+  }
+}
