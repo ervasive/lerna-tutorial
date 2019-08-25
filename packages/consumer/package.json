@@ -1,6 +1,6 @@
 {
   "name": "@ervasive-lerna-tutorial/consumer",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A consumer package",
   "author": "Ruslan Vasiliev <ervasive@gmail.com>",
   "homepage": "https://github.com/ervasive/lerna-tutorial",
@@ -23,6 +23,6 @@
     "url": "https://github.com/ervasive/lerna-tutorial/issues"
   },
   "dependencies": {
-    "@ervasive-lerna-tutorial/core": "^0.0.0"
+    "@ervasive-lerna-tutorial/core": "^0.1.0"
   }
 }
