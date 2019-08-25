@@ -24,5 +24,9 @@
   },
   "dependencies": {
     "@ervasive-lerna-tutorial/core": "^0.1.0"
-  }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "6f26c70252b1d2fe945473af46fbf9c73d68b646"
 }
